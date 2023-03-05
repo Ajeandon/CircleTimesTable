@@ -1,5 +1,5 @@
-const WIDTH_SQ = 820;
-const RADIUS = 400;
+const WIDTH_SQ = window.innerWidth;
+const RADIUS = (window.innerHeight / 2) - 50;
 let hue = 0;
 
 const body = document.querySelector("body");
